@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: #aa9e9e;
+    height: 125px;
+}
+img{
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 70px;
+}
+#t{
+    float: left; 
+    margin-left: 5px; 
+    margin-top: 10px;
+    color: cyan;
+}
+.link{
+    float: right;
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.pt1{
+    height: 85px;
+}
