@@ -5,22 +5,17 @@
     background-color: #aa9e9e;
     height: 125px;
 }
-img{
+.pt1{
+    height: 85px;
+}
+.pic1{
     float: left;
     margin-top: 5px;
     margin-left: 5px;
     height: 70px;
 }
-#t{
-    float: left; 
-    margin-left: 5px; 
-    margin-top: 10px;
-    color: cyan;
-}
 .link{
     float: right;
-    text-decoration: none;
-    color: white;
     margin: 20px;
 }
 a{
@@ -28,6 +23,27 @@ a{
     text-decoration: none;
     margin-right: 10px;
 }
-.pt1{
-    height: 85px;
+#t{
+    float: left; 
+    margin-left: 5px; 
+    margin-top: 10px;
+    color: cyan;
+}
+.bdy{
+    margin-top: 7px;
+    border-style: solid;
+    border-color: green;
+    height: 130px;
+}
+.photo{
+    height: 0px;
+}
+.para{
+    margin-left: 400px;
+}
+button{
+    border-radius: 34px;
+    background-color: #a5d8e8;
+    padding: 7px;
+    width: 90px;
 }
