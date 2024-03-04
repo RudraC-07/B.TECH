@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.pt1{
+    float: left;
+}
+.txt1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-left: 50px;
+    font-size: x-large;
+    padding: 10px;
+}
+.select{
+    float: right;
+}
+#sel1{
+    color: white;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+}
+button{
+    border-radius: 34px;
+    color: white;
+    background-color: skyblue;
+    padding: 7px;
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
