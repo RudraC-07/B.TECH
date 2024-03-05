@@ -26,7 +26,7 @@ class Student{
     }
 
     void spi(){
-
+        
     }
 }
 public class Lab6_1 {

@@ -5,6 +5,7 @@
     background-color: black;
     height: 50px;
     width: 100%;
+    float: left;
 }
 .pt1{
     float: left;
@@ -12,9 +13,9 @@
 .txt1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    margin-left: 50px;
     font-size: x-large;
     padding: 10px;
+    float: left;
 }
 .select{
     float: right;
@@ -32,4 +33,16 @@ button{
     padding: 7px;
     width: 120px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 5px;
+}
+select{
+    background-color: black;
+    border: 1px solid black;
+    margin-top: 15px;
+}
+a{
+    margin-top: 150px;
+    margin-right: 5px;
+    position: relative;
+    top: 5px;
 }
