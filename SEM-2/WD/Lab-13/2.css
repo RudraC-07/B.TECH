@@ -29,11 +29,12 @@
 button{
     border-radius: 34px;
     color: white;
-    background-color: skyblue;
+    background-color: #79bafa;
     padding: 7px;
     width: 120px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-right: 5px;
+    border-color: #79bafa;
 }
 select{
     background-color: black;
@@ -42,7 +43,26 @@ select{
 }
 a{
     margin-top: 150px;
-    margin-right: 5px;
+    margin-right: 7px;
     position: relative;
     top: 5px;
+}
+#banner{
+    margin-top: 20px;
+    margin-left: 73px;
+}
+.end{
+    float: left;
+    margin-top: 20px;
+    margin-left: 73px;
+    width: 1117px;
+    height: 500px;
+    background-color: white;
+}
+
+#photo{
+    float: left;
+    height: 230px;
+    width: 250px;
+    position: relative;
 }
