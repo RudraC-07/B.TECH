@@ -4,7 +4,7 @@ public class Lab1_8{
 
         Scanner sc = new Scanner(System.in);
         int n;
-        System.out.print("Enter n : ");
+        System.out.print("Enter number : ");
         n = sc.nextInt();
         int count=0;
         for(int i=2;i<n;i++){
@@ -13,10 +13,10 @@ public class Lab1_8{
             }
         }
         if(count==0){
-            System.out.println("entered no is prime no.");
+            System.out.println("No. is prime.");
         }
         else {
-        System.out.println("entered no is not prime no.");
+        System.out.println("No. is not prime.");
         }    
     }
 }
