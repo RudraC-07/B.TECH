@@ -4,11 +4,17 @@ public class Lab4_22 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
+    System.out.print("Enter size of array : ");
+    int n = sc.nextInt();
+    int [] a = new int[n];
+    for(int i=0;i<n;i++){
+      System.out.print("Enter elements at ["+i+"] : ");
+      a[i] = sc.nextInt();
+    }
+
     System.out.print("Enter position to delete element : ");
     int pos = sc.nextInt();
 
-     
-    int [] a = {10,20,30,40,50};
     int [] temp = new int[a.length-1];
 
     for(int i=0;i<a.length;i++){
