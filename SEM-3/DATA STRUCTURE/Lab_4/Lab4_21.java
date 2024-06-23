@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Lab4_1{
+public class Lab4_21{
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
 
