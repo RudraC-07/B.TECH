@@ -38,20 +38,33 @@ class Stack{
   int peep(){
     Scanner sc = new Scanner(System.in);
 
-    System.out.print("Enter Location to display : ");
+    System.out.print("Enter number of element to display : ");
     int a = sc.nextInt();
 
-    if(top-a+1<0){
+    if(top-a+1<0){  
       System.out.println("Stack Underflow.");
       return -1;
     }
     return arr[top-a+1];
   }
 
-  void display(){
-    for(int i=0;i<=top;i++){
-      System.out.println(arr[i]);
+  void change(int i,int ele){
+    if(top-i+1<=0){
+      System.out.println("Stack Underflow.");
+      return;
     }
+    else{
+      arr[top-i+1] = ele;
+      System.out.println("Element changed successfully.");
+    }
+  }
+
+  void display(){
+    System.out.println();
+    for(int i=top;i>=0;i--){
+      System.out.println("Stack elements ["+i+"] : "+arr[i]);
+    }
+    System.out.println();
   }
   
 }
@@ -74,7 +87,8 @@ public class Lab7_38 {
     System.out.println();
 
     while(true){
-
+      
+      System.out.println();
       System.out.print("Enter Choice : ");
       int choice = sc.nextInt();
 
@@ -92,8 +106,21 @@ public class Lab7_38 {
           }
           break;
 
-          case 3:
-            System.out.println(s1.peep());
+        case 3:
+          int r = s1.peep();
+          if(r>-1){
+            System.out.println(r);
+          }
+          break;
+
+        case 4:
+          System.out.print("Enter number of element to change : ");
+          int a = sc.nextInt();
+          System.out.print("Enter element : ");
+          int ele = sc.nextInt(); 
+          s1.change(a,ele);
+          break;
+
         case 5:
           s1.display();
           break;
